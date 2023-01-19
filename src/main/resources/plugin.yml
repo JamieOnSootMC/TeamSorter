@@ -5,3 +5,21 @@ api-version: 1.19
 authors: [ JamieIsGeek ]
 description: A simple plugin to separate out all online players into 2 different teams. Designed for SootMC
 website: sootmc.net
+permissions:
+    teamsorter.sort:
+        description: Allows the user to use the /teamsorter command
+        default: op
+    teamsorter.teamsteleport:
+        description: Allows the user to use the /teamsteleport command
+        default: op
+    teamsorter.noteam:
+        description: Stops the user from being put into a team
+        default: op
+
+commands:
+  sort:
+    description: Sorts all online players into the given teams
+    aliases: [teamsorter]
+  teamsteleport:
+    description: Teleports all players in a team to the given team's spawn location
+    aliases: [tpteam]
