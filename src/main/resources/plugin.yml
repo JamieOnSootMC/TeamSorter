@@ -1,0 +1,7 @@
+name: TeamSorter
+version: '${project.version}'
+main: dev.jamieisgeek.teamsorter.TeamSorter
+api-version: 1.19
+authors: [ JamieIsGeek ]
+description: A simple plugin to separate out all online players into 2 different teams. Designed for SootMC
+website: sootmc.net
